@@ -1,7 +1,7 @@
 version: "2.1"
 services:
   server:
-    image: jetbrains/teamcity-server:${TEAMCITY_VERSION}
+    image: jetbrains/teamcity-server:latest
     ports:
       - "8112:8111"
     volumes:
